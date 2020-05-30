@@ -123,8 +123,8 @@ body {
 }
 
 .nav-links {
-  font-size: 4rem;
-  flex-basis: 30em;
+  font-size: 2rem;
+  flex-basis: 20em;
 }
 
 .nav-links h3 {
@@ -132,10 +132,15 @@ body {
 }
 
 .contact {
-  flex-basis: 30em;
+  flex-basis: 20em;
 }
 
 .contact h2 {
-  font-size: 5rem;
+  font-size: 2.5rem;
   padding: 2em 0em;
+}
+
+.contact p {
+  font-size: 1rem;
+  line-height: 25px;
 }
