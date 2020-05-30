@@ -102,14 +102,40 @@ body {
   cursor: pointer;
 }
 
-.nav-bar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.nav-links {
+  font-size: 4rem;
+  flex-basis: 30em;
+}
+
+.nav-links h3 {
+  padding: 3em 0em;
+}
+
+.contact {
+  flex-basis: 30em;
+}
+
+.contact h2 {
+  font-size: 5rem;
+  padding: 2em 0em;
 }
